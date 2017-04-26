@@ -1,0 +1,15 @@
+{
+  "presets": [
+    ["env", {
+      "targets": {
+        "node": 0
+      }
+    }]
+  ],
+  "plugins": [
+    ["transform-runtime", {
+      "polyfill": true
+    }],
+    "add-module-exports"
+  ]
+}

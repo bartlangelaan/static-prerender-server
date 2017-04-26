@@ -1,0 +1,29 @@
+# static-prerender-server [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
+> Starts a static server with prerender.
+
+## Installation
+
+```sh
+$ npm install --save static-prerender-server
+```
+
+## Usage
+
+```js
+const staticPrerenderServer = require('static-prerender-server');
+
+staticPrerenderServer('Rainbow');
+```
+## License
+
+MIT © [Bart Langelaan](http://bart.ninja)
+
+
+[npm-image]: https://badge.fury.io/js/static-prerender-server.svg
+[npm-url]: https://npmjs.org/package/static-prerender-server
+[travis-image]: https://travis-ci.org/bartlangelaan/static-prerender-server.svg?branch=master
+[travis-url]: https://travis-ci.org/bartlangelaan/static-prerender-server
+[daviddm-image]: https://david-dm.org/bartlangelaan/static-prerender-server.svg?theme=shields.io
+[daviddm-url]: https://david-dm.org/bartlangelaan/static-prerender-server
+[coveralls-image]: https://coveralls.io/repos/bartlangelaan/static-prerender-server/badge.svg
+[coveralls-url]: https://coveralls.io/r/bartlangelaan/static-prerender-server

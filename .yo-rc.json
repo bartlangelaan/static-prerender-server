@@ -1,0 +1,9 @@
+{
+  "generator-node": {
+    "promptValues": {
+      "authorName": "Bart Langelaan",
+      "authorEmail": "langelaanbart@gmail.com",
+      "authorUrl": "http://bart.ninja"
+    }
+  }
+}
