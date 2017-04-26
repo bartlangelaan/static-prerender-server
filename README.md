@@ -1,4 +1,4 @@
-# static-prerender-server [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
+# static-prerender-server [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url][![Greenkeeper badge][greenkeeper-image]][greenkeeper-url] [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](LICENSE)
 > Starts a static server with prerender.
 
 ## Global usage
@@ -41,3 +41,6 @@ MIT © [Bart Langelaan](http://bart.ninja)
 [daviddm-url]: https://david-dm.org/bartlangelaan/static-prerender-server
 [coveralls-image]: https://coveralls.io/repos/bartlangelaan/static-prerender-server/badge.svg
 [coveralls-url]: https://coveralls.io/r/bartlangelaan/static-prerender-server
+[greenkeeper-image]: https://badges.greenkeeper.io/bartlangelaan/static-prerender-server.svg
+[greenkeeper-url]: https://greenkeeper.io/
+[license-image]: https://img.shields.io/github/license/mashape/apistatus.svg
