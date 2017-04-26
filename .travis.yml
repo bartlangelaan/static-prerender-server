@@ -3,4 +3,7 @@ node_js:
   - 7
   - 6
   - 4
+before_script:
+  - npm run build
+  - rm -rf src
 after_script: 'cat ./coverage/lcov.info | coveralls'
