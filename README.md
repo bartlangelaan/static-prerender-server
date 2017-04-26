@@ -1,18 +1,32 @@
 # static-prerender-server [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
 > Starts a static server with prerender.
 
-## Installation
+## Global usage
+
+```sh
+$ npm install -g static-prerender-server
+$ static-prerender-server
+```
+
+## Project usage
 
 ```sh
 $ npm install --save static-prerender-server
 ```
 
-## Usage
-
 ```js
-const staticPrerenderServer = require('static-prerender-server');
+const server = require('static-prerender-server');
+const path = require('path');
 
-staticPrerenderServer('Rainbow');
+server({
+  port: 3000,
+  prerenderPort: 3002,
+  path: path.join(__dirname, 'public'),
+  fallbackFile: 'index.html',
+  callback: () => console.log('Server online!')
+})
+
+// or just run server() with no options
 ```
 ## License
 
