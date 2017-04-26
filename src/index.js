@@ -18,7 +18,7 @@ import { spawn } from 'child_process';
  * @param {function} options.callback
  * A function that will be called once the expressjs listens to the port
  */
-export default ({ path = process.cwd(), fallbackFile = '/index.html', port = 3000, prerenderPort = 3002, callback = () => {} } = {}) => {
+export default ({ path = process.cwd(), fallbackFile = '/index.html', port = parseInt(process.env.PORT || 3000, 10), prerenderPort = 3002, callback = () => {} } = {}) => {
   /**
    * Start the prerender server
    */
