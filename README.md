@@ -1,4 +1,5 @@
-# static-prerender-server [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url][![Greenkeeper badge][greenkeeper-image]][greenkeeper-url] [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](LICENSE)
+[![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url] [![Greenkeeper badge][greenkeeper-image]][greenkeeper-url] [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](LICENSE)
+# static-prerender-server
 > Starts a static server with prerender.
 
 ## Global usage
