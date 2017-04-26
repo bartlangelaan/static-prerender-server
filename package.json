@@ -50,7 +50,8 @@
   },
   "repository": "bartlangelaan/static-prerender-server",
   "jest": {
-    "testEnvironment": "node"
+    "testEnvironment": "node",
+    "collectCoverage": true
   },
   "license": "MIT",
   "dependencies": {
