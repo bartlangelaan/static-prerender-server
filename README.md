@@ -1,4 +1,6 @@
 # static-prerender-server [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/bartlangelaan/static-prerender-server.svg)](https://greenkeeper.io/)
 > Starts a static server with prerender.
 
 ## Global usage
