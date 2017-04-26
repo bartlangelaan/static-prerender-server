@@ -32,10 +32,10 @@
   },
   "scripts": {
     "prepublish": "nsp check",
-    "pretest": "eslint . --fix --ignore-path .gitignore",
+    "pretest": "eslint . --ignore-path .gitignore",
     "start": "npm run build -- --watch",
     "build": "babel src --out-dir lib --copy-files",
-    "test": "jest",
+    "test": "jest lib",
     "start-server": "node ./lib/start.js"
   },
   "bin": {
