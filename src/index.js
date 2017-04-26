@@ -2,7 +2,6 @@ import express from 'express';
 import compression from 'compression';
 import prerenderMiddleware from 'prerender-node';
 import { spawn } from 'child_process';
-import { join } from 'path';
 
 /**
  * Starts an prerender server and an expressjs server with prerender middleware
