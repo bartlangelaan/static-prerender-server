@@ -23,7 +23,7 @@ export default ({ path = process.cwd(), fallbackFile = '/index.html', port = 300
   /**
    * Start the prerender server
    */
-  spawn(join(__dirname, '../node_modules/.bin/prerender'), [], {
+  spawn('prerender', [], {
     stdio: 'inherit',
     env: Object.assign({}, process.env, {
       PORT: prerenderPort,
