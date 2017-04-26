@@ -2,8 +2,8 @@ language: node_js
 node_js:
   - 7
   - 6
+  - 5
   - 4
-  - 0.12
 before_script:
   - npm run build
 after_script: 'cat ./coverage/lcov.info | coveralls'
