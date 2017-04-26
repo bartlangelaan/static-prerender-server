@@ -1,6 +1,6 @@
 {
   "name": "static-prerender-server",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Starts a static server with prerender.",
   "homepage": "https://github.com/bartlangelaan/static-prerender-server",
   "author": {
