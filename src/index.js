@@ -2,6 +2,7 @@ import express from 'express';
 import compression from 'compression';
 import prerenderMiddleware from 'prerender-node';
 import { spawn } from 'child_process';
+import { join } from 'path';
 
 /**
  * Starts an prerender server and an expressjs server with prerender middleware
@@ -18,11 +19,11 @@ import { spawn } from 'child_process';
  * @param {function} options.callback
  * A function that will be called once the expressjs listens to the port
  */
-export default ({ path = __dirname, fallbackFile = '/index.html', port = 3000, prerenderPort = 3002, callback = () => {} } = {}) => {
+export default ({ path = process.cwd(), fallbackFile = '/index.html', port = 3000, prerenderPort = 3002, callback = () => {} } = {}) => {
   /**
    * Start the prerender server
    */
-  spawn('prerender', [], {
+  spawn(join(__dirname, '../node_modules/.bin/prerender'), [], {
     stdio: 'inherit',
     env: Object.assign({}, process.env, {
       PORT: prerenderPort,
