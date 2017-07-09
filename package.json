@@ -1,6 +1,6 @@
 {
   "name": "static-prerender-server",
-  "version": "1.0.2",
+  "version": "0.0.0-development",
   "description": "Starts a static server with prerender.",
   "homepage": "https://github.com/bartlangelaan/static-prerender-server",
   "author": {
@@ -28,7 +28,8 @@
     "eslint-plugin-import": "^2.2.0",
     "jest": "^19.0.2",
     "jest-cli": "^19.0.1",
-    "nsp": "^2.6.3"
+    "nsp": "^2.6.3",
+    "semantic-release": "^6.3.6"
   },
   "scripts": {
     "prepublish": "nsp check",
@@ -36,7 +37,8 @@
     "start": "npm run build -- --watch",
     "build": "babel src --out-dir lib --copy-files",
     "test": "jest lib",
-    "start-server": "./lib/start.js"
+    "start-server": "./lib/start.js",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "bin": {
     "static-prerender-server": "./lib/start.js"
