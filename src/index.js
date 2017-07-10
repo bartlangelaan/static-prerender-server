@@ -2,6 +2,7 @@ import express from 'express';
 import compression from 'compression';
 import prerenderMiddleware from 'prerender-node';
 import { spawn } from 'child_process';
+import witch from 'witch';
 
 /**
  * Starts an prerender server and an expressjs server with prerender middleware
@@ -22,7 +23,7 @@ export default ({ path = process.cwd(), fallbackFile = '/index.html', port = par
   /**
    * Start the prerender server
    */
-  spawn('prerender', [], {
+  spawn(witch('prerender'), [], {
     stdio: 'inherit',
     env: Object.assign({}, process.env, {
       PORT: prerenderPort,
