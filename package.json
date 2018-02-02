@@ -60,7 +60,7 @@
     "babel-runtime": "^6.23.0",
     "compression": "^1.6.2",
     "express": "^4.15.2",
-    "prerender": "^4.4.1",
+    "prerender": "^5.2.2",
     "prerender-node": "^2.7.1",
     "update-notifier": "^2.2.0",
     "witch": "latest"
